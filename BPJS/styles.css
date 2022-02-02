@@ -1,0 +1,135 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*===== Colores =====*/
+:root {
+  --fisrt-color: #e55947;
+  --fisrt-color-alt: #d2321e;
+  --white-color: #fafaff;
+  --dark-color: #101010;
+  --dark-color-light: #606060;
+  --gray-color: #f0f1f3;
+}
+
+/*===== Fuente y tipografia =====*/
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+html {
+  overflow-x: hidden !important;
+  /* overflow-y: hidden !important; */
+}
+.login {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(115.860254666246deg, rgba(255, 255, 255, 1) -5%, rgba(2, 167, 240, 1) 2%, rgba(149, 242, 4, 1) 100%) !important;
+}
+
+.img-login {
+  justify-self: center;
+  width: 200px;
+  position: absolute;
+  top: -10px;
+  left: 150px;
+}
+.bg-form {
+  width: 500px;
+  height: 350px;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 20px;
+  position: relative;
+  top: 90px;
+  right: 50px;
+  padding: 50px;
+}
+
+.input-email,
+.input-password {
+  margin: auto;
+  width: 360px;
+}
+
+.input-email input {
+  margin-top: 60px;
+  border-radius: 30px;
+}
+.input-password input {
+  border-radius: 30px;
+}
+.btn-login {
+  width: 100px;
+  margin: 30px 0 15px 150px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+}
+.btn-forget {
+  margin-left: 125px;
+}
+
+/* Home Page */
+.section-home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(266.250540968281deg, rgba(2, 125, 180, 1) 23%, rgba(149, 242, 4, 1) 73%);
+}
+
+.logo-bpjs {
+  width: 220px;
+}
+.title-score {
+  margin-left: 100px;
+  font-size: 22px;
+}
+.img-profiel {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+.profiel {
+  margin-left: 10px;
+  align-self: center;
+}
+.posisi {
+  margin-top: 35px;
+  font-size: 15px;
+}
+.posisi p {
+  width: 250px;
+}
+.posisi p span {
+  color: rgba(2, 125, 180, 1);
+}
+
+/* navbar */
+
+.navbar {
+  position: absolute;
+  top: 165px;
+  left: 280px;
+  z-index: 1000;
+  width: 67rem;
+  background-color: rgba(2, 125, 180, 1) !important ;
+}
+.nav-item {
+  margin-left: 150px;
+}
+
+.nav-link,
+.dropdown-item {
+  color: #fafaff !important;
+}
+.dropdown-menu {
+  border-radius: 0 0 20px 20px;
+  background-color: rgba(2, 125, 180, 1) !important ;
+  border: none;
+}
+
+/* content home page */
