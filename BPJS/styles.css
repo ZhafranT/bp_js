@@ -24,7 +24,7 @@ a {
 }
 html {
   overflow-x: hidden !important;
-  /* overflow-y: hidden !important; */
+  overflow-y: hidden !important;
 }
 .login {
   width: 100%;
@@ -113,7 +113,7 @@ html {
 .navbar {
   position: absolute;
   top: 165px;
-  left: 280px;
+  left: 265px;
   z-index: 1000;
   width: 67rem;
   background-color: rgba(2, 125, 180, 1) !important ;
@@ -133,3 +133,44 @@ html {
 }
 
 /* content home page */
+.content{
+  position: absolute;
+  top: 220px;
+  left: 265px;
+  background: #fff;
+  width: 66rem;
+  height: 28rem;
+}
+.table{
+  border-collapse: collapse;
+}
+.tableFixHead{
+  overflow: auto; 
+  width: 65rem;
+  height: 350px;
+}
+.tableFixHead thead th { 
+  position: sticky; 
+  top: 0; 
+  z-index: 1; 
+}
+th, td { 
+  padding: 8px 16px; 
+}
+
+th { 
+  background:#eee !important; 
+}
+
+.table thead tr th {
+  padding-right: 45px;
+}
+.table tbody tr td{
+  font-size: 13px;
+  padding-right: 45px;
+}
+.table-wrapper {
+  max-height: 100px;
+  overflow: auto;
+  display:inline-block;
+}
