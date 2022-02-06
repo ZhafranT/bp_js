@@ -1,17 +1,11 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
-/*===== Colores =====*/
-:root {
-  --fisrt-color: #e55947;
-  --fisrt-color-alt: #d2321e;
-  --white-color: #fafaff;
-  --dark-color: #101010;
-  --dark-color-light: #606060;
-  --gray-color: #f0f1f3;
-}
-
 /*===== Fuente y tipografia =====*/
+
+:root {
+  --bg-color: linear-gradient(266.250540968281deg, rgba(2, 125, 180, 1) 23%, rgba(149, 242, 4, 1) 73%);
+}
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -78,7 +72,7 @@ html {
 .section-home {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(266.250540968281deg, rgba(2, 125, 180, 1) 23%, rgba(149, 242, 4, 1) 73%);
+  background: var(--bg-color);
 }
 
 .logo-bpjs {
@@ -112,19 +106,26 @@ html {
 
 .navbar {
   position: absolute;
-  top: 165px;
+  top: 145px;
   left: 265px;
   z-index: 1000;
-  width: 67rem;
+  width: 69rem;
   background-color: rgba(2, 125, 180, 1) !important ;
 }
 .nav-item {
   margin-left: 150px;
 }
-
-.nav-link,
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #ffff00;
+}
+.nav-link:focus {
+  color: #ffff00;
+}
 .dropdown-item {
-  color: #fafaff !important;
+  color: #000;
 }
 .dropdown-menu {
   border-radius: 0 0 20px 20px;
@@ -133,44 +134,70 @@ html {
 }
 
 /* content home page */
-.content{
+.content {
   position: absolute;
-  top: 220px;
+  top: 185px;
   left: 265px;
   background: #fff;
-  width: 66rem;
-  height: 28rem;
+  width: 69rem;
+  height: 28.5rem;
 }
-.table{
+.table {
   border-collapse: collapse;
 }
-.tableFixHead{
-  overflow: auto; 
-  width: 65rem;
+.tableFixHead {
+  overflow: auto;
+  width: 67.5rem;
   height: 350px;
 }
-.tableFixHead thead th { 
-  position: sticky; 
-  top: 0; 
-  z-index: 1; 
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-th, td { 
-  padding: 8px 16px; 
+th,
+td {
+  padding: 8px 16px;
 }
 
-th { 
-  background:#eee !important; 
+th {
+  background: #eee !important;
 }
 
 .table thead tr th {
   padding-right: 45px;
 }
-.table tbody tr td{
+.table tbody tr td {
   font-size: 13px;
-  padding-right: 45px;
+  /* padding-right: 45px; */
 }
 .table-wrapper {
   max-height: 100px;
   overflow: auto;
-  display:inline-block;
+  display: inline-block;
+}
+.btn-kpi-content {
+  width: 8rem;
+}
+.btn-kpi-content a {
+  margin-left: 15px;
+}
+
+/* form penambahan KPI */
+.head-form-kpi {
+  margin-top: 35px;
+}
+.text-import {
+  margin-right: 10px;
+}
+.kpi-dropdown {
+  border: none;
+  color: black;
+}
+.kpi-dropdown a:hover {
+  color: #000;
+}
+
+.input-kpi{
+  height: 35px;
 }
