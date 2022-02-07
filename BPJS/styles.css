@@ -5,6 +5,7 @@
 
 :root {
   --bg-color: linear-gradient(266.250540968281deg, rgba(2, 125, 180, 1) 23%, rgba(149, 242, 4, 1) 73%);
+  --bg-btn:rgba(2, 125, 180, 1);
 }
 
 * {
@@ -109,7 +110,7 @@ html {
   top: 145px;
   left: 265px;
   z-index: 1000;
-  width: 69rem;
+  width: 70rem;
   background-color: rgba(2, 125, 180, 1) !important ;
 }
 .nav-item {
@@ -139,8 +140,8 @@ html {
   top: 185px;
   left: 265px;
   background: #fff;
-  width: 69rem;
-  height: 28.5rem;
+  width: 70rem;
+  height: 30rem;
 }
 .table {
   border-collapse: collapse;
@@ -187,6 +188,16 @@ th {
 .head-form-kpi {
   margin-top: 35px;
 }
+.btn-save-kpi {
+  width: 135px;
+  height: 30px;
+  background-color: var(--bg-btn) ;
+  border-radius: 20px;
+  padding: 3px 0 20px 33px;
+}
+.btn-save-kpi a{
+  color: #fff;
+}
 .text-import {
   margin-right: 10px;
 }
@@ -198,6 +209,6 @@ th {
   color: #000;
 }
 
-.input-kpi{
+.input-kpi {
   height: 35px;
 }
